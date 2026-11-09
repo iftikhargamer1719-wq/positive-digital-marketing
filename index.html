@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Positivus digital marketing agency landing page">
+  <title>Positivus — Digital Marketing Agency</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header container">
+    <a class="logo" href="#home"><span class="logo-mark">✦</span><span>Positivus</span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#about">About us</a>
+      <a href="#services">Services</a>
+      <a href="#process">Use Cases</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Blog</a>
+      <a class="button button-outline nav-cta" href="#contact">Request a quote</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero container">
+      <div class="hero-copy">
+        <h1>Navigating the digital landscape for success</h1>
+        <p>Our digital marketing agency helps businesses grow and succeed online. We use creative strategies and data-driven insights to help you reach your goals.</p>
+        <a href="#contact" class="button button-dark">Book a consultation</a>
+      </div>
+      <div class="hero-art"><img src="assets/hero.jpg" alt="Digital marketing megaphone illustration"></div>
+    </section>
+
+    <section class="brands container" aria-label="Partner brands">
+      <img src="assets/brands.jpg" alt="Amazon, Dribbble, HubSpot, Notion, Netflix and Zoom">
+    </section>
+
+    <section class="section container" id="services">
+      <div class="section-heading">
+        <h2><span>Services</span></h2>
+        <p>At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</p>
+      </div>
+
+      <div class="service-grid">
+        <article class="service-card light-card">
+          <div class="service-copy">
+            <h3>Search engine<br>optimization</h3>
+            <a class="learn-link" href="#contact"><b>↗</b> Learn more</a>
+          </div>
+          <img src="assets/service-seo.jpg" class="service-image" alt="Search engine optimization illustration">
+        </article>
+
+        <article class="service-card green-card">
+          <div class="service-copy">
+            <h3>Pay-per-click<br>advertising</h3>
+            <a class="learn-link" href="#contact"><b>↗</b> Learn more</a>
+          </div>
+          <img src="assets/service-ppc.jpg" class="service-image" alt="Pay per click advertising illustration">
+        </article>
+
+        
+
+        
+    </section>
+
+    <section class="section container" id="process">
+      <div class="section-heading">
+        <h2><span>Our Working Process</span></h2>
+        <p>Step-by-step guide to achieving <br> your business goals</p>
+      </div>
+      <div class="accordion">
+        <article class="process-item active">
+          <button class="process-toggle"><span class="number">01</span><strong>Consultation</strong><span class="plus">−</span></button>
+          <div class="process-content"><p>During the initial consultation, we will discuss your business goals, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to your specific requirements.</p></div>
+        </article>
+        <article class="process-item"><button class="process-toggle"><span class="number">02</span><strong>Research and Strategy Development</strong><span class="plus">+</span></button><div class="process-content"><p>We research your market, competitors and audience and create a practical strategy tailored to your goals.</p></div></article>
+        <article class="process-item"><button class="process-toggle"><span class="number">03</span><strong>Implementation</strong><span class="plus">+</span></button><div class="process-content"><p>Our team puts the agreed strategy into action with focused campaigns and creative execution.</p></div></article>
+        <article class="process-item"><button class="process-toggle"><span class="number">04</span><strong>Monitoring and Optimization</strong><span class="plus">+</span></button><div class="process-content"><p>We monitor performance, review the data and optimize campaigns to make them more effective.</p></div></article>
+        <article class="process-item"><button class="process-toggle"><span class="number">05</span><strong>Reporting and Communication</strong><span class="plus">+</span></button><div class="process-content"><p>You receive clear updates about progress, performance and the next steps.</p></div></article>
+        <article class="process-item"><button class="process-toggle"><span class="number">06</span><strong>Continual Improvement</strong><span class="plus">+</span></button><div class="process-content"><p>We keep learning from results and refining the strategy as your business grows.</p></div></article>
+      </div>
+    </section>
+
+    <section class="section container" id="contact">
+      <div class="section-heading">
+        <h2><span>Contact Us</span></h2>
+        <p>Connect with Us: Let's Discuss Your Digital Marketing Needs</p>
+      </div>
+      <div class="contact-panel">
+        <form id="contact-form">
+          <div class="radio-line">
+            <label><input type="radio" name="reason" value="Say Hi" checked> Say Hi</label>
+            <label><input type="radio" name="reason" value="Get a Quote"> Get a Quote</label>
+          </div>
+          <label class="field">Name<input type="text" name="name" placeholder="Name" required></label>
+          <label class="field">Email<input type="email" name="email" placeholder="Email" required></label>
+          <label class="field">Message<textarea name="message" rows="4" placeholder="Message" required></textarea></label>
+          <button class="button button-dark submit-button" type="submit">Send Message</button>
+          <p class="form-note" id="form-note" aria-live="polite"></p>
+        </form>
+        <div class="contact-art"><img src="assets/contact-art.jpg" alt="Decorative starburst illustration"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <div class="footer-top">
+      <a class="logo footer-logo" href="#home"><span class="logo-mark">✦</span><span>Positivus</span></a>
+      <nav><a href="#about">About us</a><a href="#services">Services</a><a href="#process">Use Cases</a><a href="#contact">Contact</a></nav>
+      <div class="socials"><a href="#" aria-label="LinkedIn">in</a><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Instagram">◎</a></div>
+    </div>
+    <div class="footer-middle">
+      <div class="footer-contact"><h3><span>Contact us</span></h3><p>Email: hello@positivus.example</p><p>Phone: +1 234 567 890</p><p>Address: 123 Main Street, Your City</p></div>
+      <form class="subscribe" id="subscribe-form"><input type="email" placeholder="Email" aria-label="Your email" required><button class="button button-green">Subscribe to news</button><p id="subscribe-note"></p></form>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Positivus. All Rights Reserved.</span><a href="#home">Privacy Policy</a></div>
+  </footer>
+
+</body>
+</html>
